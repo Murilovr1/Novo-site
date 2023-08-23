@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo 1 de Devil My cry</title>
+    <link rel="shortcut icon" type="imagem/icon"
+        href="https://i.pinimg.com/564x/02/8d/22/028d229e6ad0cb62dcc1216cfd20a86a.jpg">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Roboto+Slab:wght@300&display=swap');
+
+
+        .container {
+            display: grid;
+            grid-template-columns: 15fr;
+            justify-items: auto;
+        
+            margin-left: 150px;
+            margin-right: 150px;
+
+        }
+
+        .container .item {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 300px;
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 30px;
+            text-align: center;
+            margin: 4px;
+            background-image: url("https://i.redd.it/lsg6j6wnx0h71.jpg");
+            background-position: 1650px 480px;
+            width: 1400px;
+        }
+
+        .container>.item11 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 300px;
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 27px;
+            text-align: center;
+            margin: 4px;
+            background-image: url("https://nintendoeverything.com/wp-content/uploads/devil-may-cry-1.jpg");
+            background-position: 700px 900px;
+            width: 400px;
+            margin-left: 525px;
+            margin-right: 50px;
+        }
+
+        .container>.item12 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            display: grid;
+            grid-template-columns: repeat(2, 4fr 3fr);
+            grid-auto-rows: 300px;
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 30px;
+            text-align: center;
+            margin: 4px;
+            background-image: url("https://images4.alphacoders.com/262/262388.jpg");
+            background-position: 1300px 850px;
+            width: 400px;
+            margin-left: 525px;
+            margin-right: 50px;
+        }
+
+        .container>.item13 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 300px;
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 27px;
+            text-align: center;
+            margin: 4px;
+            background-image: url("https://3.bp.blogspot.com/-n5aHM0lTxHw/WTiAvKYLkMI/AAAAAAAAOfY/Ek0BnGhbNZ8_1Rii__xF7XFqaOGJnPJjwCLcB/s1600/maxresdefault.jpg");
+            background-position: 0 1050px;
+            width: 400px;
+            margin-left: 525px;
+            margin-right: 50px;
+
+        }
+
+        .container>.item14 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            display: grid;
+            grid-template-columns: repeat(2, 4fr 1fr);
+            grid-auto-rows: 300px;
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 30px;
+            text-align: center;
+            margin: 4px;
+            background-image: url("https://th.bing.com/th/id/R.1cde17cb885d1478f2bd0580e512711b?rik=eutbjrohaDNX0Q&riu=http%3a%2f%2fwww.hdwallpapers.in%2fwalls%2fdevil_may_cry_4-HD.jpg&ehk=YJ9zt%2fjki2oocwMQLr8Tn5bbkQroD4Tpt1a6XjqCp0Q%3d&risl=&pid=ImgRaw&r=0");
+            background-position: 1100px 800px;
+            width: 400px;
+            margin-left: 525px;
+            margin-right: 50px;
+        }
+
+        .container>.item15 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 300px;
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 30px;
+            text-align: center;
+            margin: 4px;
+            background-image: url("https://pm1.narvii.com/7995/345446d27905da04d6e7edf28ae6f6c5484542e1r1-736-1030v2_00.jpg");
+            background-position: 20px 930px;
+            width: 400px;
+            margin-left: 525px;
+            margin-right: 50px;
+        }
+
+        .container>.item16 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 300px;
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 30px;
+            text-align: center;
+            margin: 4px;
+            background-image: url("");
+            background-position: 0 730px;
+            width: 1200px;
+        }
+
+        .container>.item17 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 300px;
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 30px;
+            text-align: center;
+            margin: 4px;
+            background-image: url("");
+            background-position: 0 730px;
+            width: 1200px;
+        }
+
+        .container .item2 {
+            border: 2px solid rgba(255, 255, 255, 0);
+            background-color: rgba(27, 27, 27, 0);
+            color: rgb(255, 255, 255);
+            min-height: 50px;
+            min-width: 20px;
+            font-size: 36px;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .container .item3 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 30px;
+            text-align: center;
+            margin: 5px;
+        }
+
+        .container>.item31 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            color: rgb(0, 0, 0);
+            min-height: 10px;
+            font-size: 30px;
+            text-align: center;
+            margin: 5px;
+
+
+        }
+
+        .container>.item4 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            color: rgb(247, 247, 247);
+            font-size: 30px;
+            text-align: center;
+            margin: auto;
+            background-image: url("https://wallpapercave.com/wp/V8CfemU.jpg");
+            background-position: 1400px 910px;
+            width: 1000px;
+        }
+
+        .container>.item5 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            color: rgb(247, 247, 247);
+            font-size: 30px;
+            text-align: center;
+            margin: auto;
+            background-image: url("https://sirus.b-cdn.net/wp-content/uploads/2020/09/devil-may-cry-v-special-edition-04.jpg");
+            background-position: 1650px 1920px;
+            width: 1000px;
+        }
+
+        .container>.item6 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            color: rgb(247, 247, 247);
+            font-size: 30px;
+            text-align: center;
+            margin: auto;
+            background-image: url("https://i.ytimg.com/vi/fV6OywLlO0w/maxresdefault.jpg");
+            background-position: 1300px 1225px;
+            width: 1000px;
+        }
+
+        .container>.item7 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            color: rgb(247, 247, 247);
+            font-size: 30px;
+            text-align: center;
+            margin: auto;
+            background-image: url("https://dailygame.at/wp-content/uploads/2021/01/Devil-May-Cry-5.jpg");
+            background-position: 1550px 1750px;
+            width: 1000px;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        h1 {
+            text-align: center;
+            color: #047abee0;
+            font-family: 'Crimson Text', serif;
+            font-family: 'Roboto Slab', serif;
+        }
+
+
+        div#border {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            border-radius: 10px;
+        }
+
+        p#border {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            border-radius: 10px;
+        }
+
+        p {
+            text-align: center;
+            color: white;
+            margin: 35px 15px;
+            font-family: 'Crimson Text', serif;
+            font-family: 'Roboto Slab', serif;
+            animation-duration: 2s;
+            animation-name: slidein;
+        }
+
+        @keyframes slidein {
+            from {
+                margin-left: 100%;
+                width: 300%
+            }
+
+            to {
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
+
+
+        p#Cor {
+            color: #ffffffe0;
+            text-align: center;
+            margin: 35px 15px;
+        }
+
+        p#color {
+            color: rgb(160, 10, 10);
+            text-align: center;
+            margin: 35px 15px;
+        }
+
+        p#color2 {
+            color: black;
+            text-align: center;
+            margin: 35px 15px;
+        }
+
+        /*botões*/
+        .btn {
+            left: 300px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 700;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            text-decoration: none;
+            margin: 20px 3px;
+        }
+
+        .btn-black {
+            background-color: #d62727;
+            color: white;
+            box-shadow: 0 5px 0 #a82424;
+            margin: 10px 0;
+        }
+
+        .btn-black:hover {
+            background-color: #9b1818;
+            color: white;
+            box-shadow: 0 5px 0 #571010;
+            margin: 10px 0;
+        }
+
+        .btn-black:active {
+            position: static;
+            top: 5px;
+            box-shadow: none;
+        }
+     /*botões fim*/
+
+     /*RESPONSIVIDADE*/
+
+     /*RESPON FIM*/
+
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <section>
+            <div id="border" class="item">
+
+                <div  class="item">
+                    <h1>
+
+                    </h1>
+                </div>
+
+            </div>
+
+            <div class="item2">
+                <div>Opções de páginas</div>
+                <a href="Jogo2.html" class="btn btn-black ">Dmc 2</a>
+                <a href="jogo3.html" class="btn btn-black">Dmc 3</a>
+                <a href="jogo4.html" class="btn btn-black ">Dmc 4</a>
+                <a href="Notícia1.html" class="btn btn-black">Menu principal</a>
+            
+            
+            </div>
+
+            <div id="border" class="item3">
+                <p><u><strong>
+                            PlayStation 2, PlayStation 3, PlayStation 4, XBOX 360, XBOX ONE, PC, Nintendo Switch
+                            Devil May Cry é o primeiro jogo da série Devil May Cry, criada e dirigida por Hideki Kamiya
+                            apresentando o personagem jogável principal, Dante, um filho de Sparda, como protagonista
+                            principal.
+                        </strong></u></p>
+            </div>
+
+            <div id="border" class="item3">
+                <p><u><strong>
+                            O jogo começa com uma cena em que uma mulher chamada Trish invade a loja de Dante e pede
+                            ajuda. O jogo se passa inteiramente dentro e ao redor de um castelo para onde Trish e Dante
+                            vão na Ilha Mallet
+                        </strong></u></p>
+            </div>
+
+            <div id="border" class="item3">
+                <p><u><strong>
+                            Devil May Cry começou como a primeira versão de Resident Evil 4.[3] O objetivo do diretor do
+                            jogo, Hideki Kamiya, para este novo jogo de Resident Evil era um combate rápido e elegante.
+                            No entanto, durante o desenvolvimento, o sistema de combate se afastou muito do conceito de
+                            survival horror, e o produtor da série Shinji Mikami convenceu Hideki Kamiya e o resto da
+                            equipe de desenvolvimento a transformar o projeto em um jogo totalmente novo.
+                        </strong></u></p>
+            </div>
+
+            <div class="container">
+                <div id="border" class="item31">
+                    <p><u><strong>Capa do jogo:</strong></u></p>
+
+                    <img src="https://m.media-amazon.com/images/M/MV5BZDBjNDYzMGQtM2JkMi00OWRmLWJhYTUtYjVhMGQzNGIwZWNhXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_FMjpg_UX1000_.jpg"
+                        ; background-repeat: no-repeat; background-position: 230px 250px; alt="Devil My Cry 5">
+                </div>
+            </div>
+
+            <div id="border" class="item3">
+                <p><u><strong>A história original, embora ainda conhecida como um jogo de Resident Evil, foi baseada em
+                            desvendar o mistério que cerca o corpo do protagonista chamado 'Tony', um homem invencível
+                            com habilidades e um intelecto superior ao de pessoas normais, com suas habilidades
+                            sobre-humanas explicadas com biotecnologia. O elenco de personagens permaneceu praticamente
+                            idêntico ao do cenário de Sugimura,[4] embora a mãe do herói[5] e seu pai,[6] o último uma
+                            versão inicial do fundador da Umbrella, Lord Spencer,[7][8] tenham sido escritos da história
+                            e 'Tony' se tornou 'Dante', com ele ainda permanecendo gravado em Ebony & Ivory e Luce &
+                            Ombra no jogo. Antes de o jogo se tornar Devil May Cry, o título provisório era "Karnival".
+                            Kamiya foi inflexível quanto a ser escrito com um K. O nome foi usado para o biplano que
+                            aparece no jogo.</strong></u></p>
+            </div>
+
+            <div id="border" class="item3">
+                <p><u><strong>Gameplay :</strong></u></p>
+
+                <p><u><strong>Sendo o primeiro da série, Devil May Cry introduziu uma série de novos elementos para a
+                            comunidade de jogos. O principal deles é o Stylish Rank, que classifica o desempenho do
+                            jogador em combate. O jogo em si é dividido em missões, que são pontuadas individualmente de
+                            acordo com vários fatores, como orbs coletados e danos sofridos. Além disso, Devil May Cry
+                            eliminou os planos de fundo pré-renderizados dos jogos Resident Evil anteriores para
+                            permitir um sistema de câmera dinâmico.</strong></u></p>
+            </div>
+
+            <div id="border" class="item3">
+                <p><u><strong>Outras inovações incluem o Devil Trigger, que aumenta a eficácia de combate de Dante; o
+                            sistema Orb, onde matar inimigos com uma classificação de estilo alto produz quantidades
+                            maiores de Orbs; Red Orbs em geral, que atuam como a moeda do jogo para comprar habilidades
+                            e itens.
+                        </strong></u></p>
+            </div>
+
+            <div id="border" class="item3">
+                <p><u><strong>Plot :</strong></u></p>
+
+                <p><u><strong>Devil May Cry começa quando Dante é atacado em seu escritório por uma mulher misteriosa
+                            chamada Trish. Ele a impressiona ao ignorar facilmente seu ataque e diz a ela que caça
+                            demônios enquanto persegue aqueles que mataram sua mãe e irmão. Ela diz que seu ataque foi
+                            um teste, e que o imperador demônio Mundus, a quem Dante responsabiliza pelo assassinato de
+                            sua família, está planejando retornar. A cena salta para a chegada deles a um imenso
+                            castelo, quando Trish pula abruptamente e desaparece por cima de um muro alto.</strong></u>
+                </p>
+            </div>
+
+        </div>
+        
+    </section>
+
+        </div>
+   

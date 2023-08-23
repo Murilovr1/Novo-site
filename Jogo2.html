@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo 2 de Devil My cry</title>
+    <link rel="shortcut icon" type="imagem/icon"
+        href="https://i.pinimg.com/564x/02/8d/22/028d229e6ad0cb62dcc1216cfd20a86a.jpg">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Roboto+Slab:wght@300&display=swap');
+
+
+        .container {
+            display: grid;
+            grid-template-columns: 15fr;
+            justify-items: auto;
+            width: 100px;
+            margin-left: 150px;
+            margin-right: 150px;
+
+        }
+
+        .container>.item {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 300px;
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 30px;
+            text-align: center;
+            margin: 4px;
+            background-image: url("https://thumb.tribogamer.com/?w=1200&h=630&q=75&src=https%3A%2F%2Fi.imgur.com%2FEcQ10iJ.jpg");
+            background-position: 1300px 630px;
+            width: 1400px;
+        }
+
+        .container>.item11 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 300px;
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 27px;
+            text-align: center;
+            margin: 4px;
+            background-image: url("https://nintendoeverything.com/wp-content/uploads/devil-may-cry-1.jpg");
+            background-position: 700px 900px;
+            width: 400px;
+            margin-left: 525px;
+            margin-right: 50px;
+        }
+
+        .container>.item12 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            display: grid;
+            grid-template-columns: repeat(2, 4fr 3fr);
+            grid-auto-rows: 300px;
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 30px;
+            text-align: center;
+            margin: 4px;
+            background-image: url("https://images4.alphacoders.com/262/262388.jpg");
+            background-position: 1300px 850px;
+            width: 400px;
+            margin-left: 525px;
+            margin-right: 50px;
+        }
+
+        .container>.item13 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 300px;
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 27px;
+            text-align: center;
+            margin: 4px;
+            background-image: url("https://3.bp.blogspot.com/-n5aHM0lTxHw/WTiAvKYLkMI/AAAAAAAAOfY/Ek0BnGhbNZ8_1Rii__xF7XFqaOGJnPJjwCLcB/s1600/maxresdefault.jpg");
+            background-position: 0 1050px;
+            width: 400px;
+            margin-left: 525px;
+            margin-right: 50px;
+
+        }
+
+        .container>.item14 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            display: grid;
+            grid-template-columns: repeat(2, 4fr 1fr);
+            grid-auto-rows: 300px;
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 30px;
+            text-align: center;
+            margin: 4px;
+            background-image: url("https://th.bing.com/th/id/R.1cde17cb885d1478f2bd0580e512711b?rik=eutbjrohaDNX0Q&riu=http%3a%2f%2fwww.hdwallpapers.in%2fwalls%2fdevil_may_cry_4-HD.jpg&ehk=YJ9zt%2fjki2oocwMQLr8Tn5bbkQroD4Tpt1a6XjqCp0Q%3d&risl=&pid=ImgRaw&r=0");
+            background-position: 1100px 800px;
+            width: 400px;
+            margin-left: 525px;
+            margin-right: 50px;
+        }
+
+        .container>.item15 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 300px;
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 30px;
+            text-align: center;
+            margin: 4px;
+            background-image: url("https://pm1.narvii.com/7995/345446d27905da04d6e7edf28ae6f6c5484542e1r1-736-1030v2_00.jpg");
+            background-position: 20px 930px;
+            width: 400px;
+            margin-left: 525px;
+            margin-right: 50px;
+        }
+
+        .container>.item16 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 300px;
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 30px;
+            text-align: center;
+            margin: 4px;
+            background-image: url("");
+            background-position: 0 730px;
+            width: 1200px;
+        }
+
+        .container>.item17 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 300px;
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 30px;
+            text-align: center;
+            margin: 4px;
+            background-image: url("");
+            background-position: 0 730px;
+            width: 1200px;
+        }
+
+        .container>.item2 {
+            border: 2px solid rgba(255, 255, 255, 0);
+            background-color: rgba(27, 27, 27, 0);
+            color: rgb(255, 255, 255);
+            min-height: 50px;
+            min-width: 20px;
+            font-size: 36px;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .container>.item3 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 30px;
+            text-align: center;
+            margin: 5px;
+        }
+
+        .container>.item31 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            color: rgb(0, 0, 0);
+            min-height: 10px;
+            font-size: 30px;
+            text-align: center;
+            margin: 5px;
+
+        }
+
+        .container>.item4 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            color: rgb(247, 247, 247);
+            font-size: 30px;
+            text-align: center;
+            margin: auto;
+            background-image: url("https://wallpapercave.com/wp/V8CfemU.jpg");
+            background-position: 1400px 910px;
+            width: 1000px;
+        }
+
+        .container>.item5 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            color: rgb(247, 247, 247);
+            font-size: 30px;
+            text-align: center;
+            margin: auto;
+            background-image: url("https://sirus.b-cdn.net/wp-content/uploads/2020/09/devil-may-cry-v-special-edition-04.jpg");
+            background-position: 1650px 1920px;
+            width: 1000px;
+        }
+
+        .container>.item6 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            color: rgb(247, 247, 247);
+            font-size: 30px;
+            text-align: center;
+            margin: auto;
+            background-image: url("https://i.ytimg.com/vi/fV6OywLlO0w/maxresdefault.jpg");
+            background-position: 1300px 1225px;
+            width: 1000px;
+        }
+
+        .container>.item7 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            color: rgb(247, 247, 247);
+            font-size: 30px;
+            text-align: center;
+            margin: auto;
+            background-image: url("https://dailygame.at/wp-content/uploads/2021/01/Devil-May-Cry-5.jpg");
+            background-position: 1550px 1750px;
+            width: 1000px;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        h1 {
+            text-align: center;
+            color: #047abee0;
+            font-family: 'Crimson Text', serif;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        div#border {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            border-radius: 10px;
+        }
+
+        p#border {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            border-radius: 10px;
+        }
+
+        p {
+            text-align: center;
+            color: white;
+            margin: 35px 15px;
+            font-family: 'Crimson Text', serif;
+            font-family: 'Roboto Slab', serif;
+            animation-duration: 2s;
+            animation-name: slidein;
+        }
+
+        @keyframes slidein {
+            from {
+                margin-left: 100%;
+                width: 300%
+            }
+
+            to {
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
+
+        p#Cor {
+            color: #047abee0;
+            text-align: center;
+            margin: 35px 15px;
+        }
+
+        p#color {
+            color: rgb(160, 10, 10);
+            text-align: center;
+            margin: 35px 15px;
+        }
+
+        p#color2 {
+            color: black;
+            text-align: center;
+            margin: 35px 15px;
+        }
+
+        /*botões*/
+        .btn {
+            left: 300px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 700;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            text-decoration: none;
+            margin: 20px 3px;
+        }
+
+        .btn-black {
+            background-color: #d62727;
+            color: white;
+            box-shadow: 0 5px 0 #a82424;
+            margin: 10px 0;
+        }
+
+        .btn-black:hover {
+            background-color: #9b1818;
+            color: white;
+            box-shadow: 0 5px 0 #571010;
+            margin: 10px 0;
+        }
+
+        .btn-black:active {
+            position: static;
+            top: 5px;
+            box-shadow: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="border" class="item">
+
+            <div class="item">
+            </div>
+        </div>
+
+        <div class="item2">
+            <div>Opções de páginas</div>
+            <a href="Jogo1.html" class="btn btn-black item">Dmc 1</a>
+            <a href="jogo3.html" class="btn btn-black item">Dmc 3</a>
+            <a href="jogo4.html" class="btn btn-black item">Dmc 4</a>
+            <a href="Notícia1.html" class="btn btn-black item">Menu principal</a>
+        </div>
+
+        <div id="border" class="item3">
+            <p><u><strong> Devil May Cry 2 é um jogo de ação publicado pela Capcom em 2003 exclusivamente para o
+                        PlayStation 2. O jogo se passa após os eventos de Devil May Cry e Devil May Cry: The Animated
+                        Series.[1] Foi criticado por uma variedade de decisões de desenvolvimento, que tornaram o jogo
+                        consideravelmente diferente de seu antecessor; entre essas decisões estava a dificuldade
+                        reduzida.</strong></u></p>
+        </div>
+
+        <div id="border" class="item3">
+            <p><u><strong>Situada nos tempos modernos, na ilha fictícia de Vie de Marli, a história gira em torno de
+                        Dante e Lucia em sua luta para impedir que um sinistro empresário chamado Arius crie o demônio
+                        Argosax e alcance o poder supremo. A história é contada principalmente por meio de uma mistura
+                        de cutscenes usando o motor do jogo e vários vídeos full motion pré-renderizados.</strong></u>
+            </p>
+        </div>
+
+        <div class="container">
+            <div id="border" class="item3">
+                <p><u><strong>Capa do jogo:</strong></u></p>
+
+                <img src="https://static.wikia.nocookie.net/devilmaycry/images/4/42/Img_dmc2_capa_japonesa.jpg/revision/latest?cb=20210415075116&path-prefix=pt-br"
+                    alt="erro">
+            </div>
+        </div>
+
+        <div id="border" class="item3">
+            <p><u><strong>Gameplay :</strong></u></p>
+
+            <p><u><strong>
+                        Devil May Cry 2 é um jogo de ação onde o jogador guia Dante ou Lucia através de um ambiente
+                        urbano, lutando contra uma abundância de demônios em um combate rápido. O jogo em si consiste em
+                        missões com objetivos específicos na área de jogo do próprio jogo. O desempenho do jogador em
+                        cada missão é classificado de D a S com base no tempo necessário para completar a missão, na
+                        quantidade de Red Orbs coletados, no "estilo" geral exibido durante as lutas ocorridas, no uso
+                        do item e no dano sofrido. Em contraste com o resto da jogabilidade, o sistema de julgamento de
+                        estilo usado no jogo foi citado como sendo o mais severo em termos de como julga o desempenho do
+                        jogador.
+                    </strong></u></p>
+
+        </div>
+
+        <div id="border" class="item3">
+
+            <p><u><strong>
+                        O combate em si é baseado no estilo que o jogador demonstra durante a luta. A classificação que
+                        o jogador ganha para o estilo é aprimorada ao atingir os inimigos continuamente, evitando danos.
+                        Isso varia de "Don't Worry", progredindo para "Come On!", "Bingo", "Are You Ready?" e chegando
+                        ao "Show Time !!". Se o personagem sofrer dano, o medidor de estilo volta para "Não se
+                        preocupe".
+                    </strong></u></p>
+
+        </div>
+
+        <div id="border" class="item3">
+            <p><u><strong>Os controles de combate do jogo são visivelmente diferentes dos do primeiro jogo. Os combos de
+                        armas corpo a corpo são baseados no pressionamento do stick analógico em conjunto com o botão de
+                        ataque, e não no tempo de pressionamento do botão de ataque sozinho. Uma novidade na série é um
+                        botão de evasão, que permite que Dante ou Lucia rolem, desviem de ataques inimigos ou corram
+                        pelas paredes. Outro novo recurso é um botão de troca de arma, que permite ao jogador alternar
+                        entre armas de longo alcance sem alternar para a tela de inventário.</p></u></strong>
+        </div>
+
+        <div id="border" class="item3">
+            <p><u><strong>Plot :</strong></u></p>
+
+            <p><u><strong>
+                        Devil May Cry 2 começa com Lucia e Dante entrando separadamente em um museu onde um item
+                        importante chamado Arcana Medaglia é armazenado. Depois de derrotar um grupo de demônios no
+                        museu, Lucia convida Dante para segui-la até Vie de Marli, onde ele é apresentado a Matier, sua
+                        mãe. Matier explica que uma vez lutou ao lado do pai de Dante, Sparda, para defender a ilha
+                        contra demônios.
+                        Ela pede a Dante para ajudar a combater Ário, um empresário internacional que usa o poder
+                        demoníaco e busca conquistar o mundo. Dante joga uma moeda como resposta, e decide ajudar quando
+                        a moeda cai em cabeças.
+                        Depois que Dante deixa Matier e Lucia discutem o Arcana, os itens necessários para Ário liberar
+                        Argosax.
+                    </strong></u></p>
+        </div>
+
+        <div id="border" class="item3">
+            <p><u><strong>Lúcia acaba confrontando Ário, que revela que ela foi criação dele.
+                 Quando Lucia se move para atacar Ário, ele usa sua magia para explodi-la.
+                  Pouco depois, Dante se encontra com Lúcia, que lhe dá o último dos Arcanos antes de partir.
+                   Dante então encontra Matier e tenta passar os Arcanos para ela.
+                    Matier, por sua vez, pede a Dante que tome os Arcanos para salvar Lúcia, que foi lutar contra Ário novamente.
+                     Dante vira a moeda novamente para decidir se vai ajudar; pousa sobre cabeças, e ele parte para ajudar Lúcia.
+                      Enquanto isso, Lucia entra no edifício Uroboros e ataca Ário, que a captura.
+                       Dante chega e troca os Arcanos por Lúcia, depois ataca Ário. 
+                Para escapar, Ário força Dante a decidir entre salvar Lúcia ou matá-lo.</strong></u></p>
+        </div>
+
+        <div id="border" class="item3">
+            <p><u><strong>Lúcia, preocupada com o ritual e conflituosa consigo mesma, se pergunta como eles vão parar Ário.
+                 Dante acenou para ela, afirmando que vai encontrar um caminho.
+                  Dante deixa Lúcia pensar enquanto parte para derrotar Ário. 
+                  Matier chega pouco tempo depois, deixa a mente de Lúcia tranquila e decide voltar à luta contra Ário.
+                   Dante chega para encontrar Ário no meio de seu ritual indutor da imortalidade.
+                    Aparentemente nada adiantado com a conclusão da cerimônia, Dante se mantém confiante.
+                     Outra luta se segue, na qual Dante termina Ário com suas pistolas.
+                      Do lado de fora, Lucia confronta Dante e exige que ele a mate porque teme que ela se torne um demônio.
+                       Antes que o problema possa ser resolvido, um grande fluxo de energia atinge a torre e um portal para o mundo demoníaco é aberto.
+                        Dante e Lúcia discutem sobre quem vai entrar e fechar por dentro; Dante se oferece para deixar a questão para o destino.
+                 Ele joga a moeda e ela mais uma vez cai em cabeças, deixando Dante entrar no portal para lidar com Argosax depois de deixar a moeda com Lucia.</strong></u></p>
+        </div>
+    </div>

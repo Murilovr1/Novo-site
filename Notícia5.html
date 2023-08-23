@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bosses</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Roboto+Slab:wght@300&display=swap');
+
+
+        .container {
+            display: grid;
+            grid-template-columns: 15fr;
+            justify-items: auto;
+            width: 100px;
+            margin-left: 150px;
+            margin-right: 150px;
+
+        }
+
+        .container2 {
+            display: grid;
+            grid-template-columns: 1.2fr 1.2fr;
+            grid-template-rows: auto;
+            width: 100px;
+
+        }
+
+
+        .container>.item {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 300px;
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 30px;
+            text-align: center;
+            margin: 4px;
+            background-image: url("https://1.bp.blogspot.com/-uAaFdSTxELg/X9oYh1bOBUI/AAAAAAAAHSA/GMtUb6yqa1oLHyhacxyJKqQZGfoLfxGAgCLcBGAsYHQ/s1920/DMC5%2BVergil%2BDLC%2BReview.jpg");
+            background-position: 0 730px;
+            width: 1400px;
+        }
+
+        .container2>.item11 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 300px;
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 27px;
+            text-align: center;
+            margin: 8px;
+            background-image: url("https://nintendoeverything.com/wp-content/uploads/devil-may-cry-1.jpg");
+            background-position: 700px 900px;
+            width: 400px;
+            margin-left: 425px;
+            margin-right: 50px;
+        }
+
+        .container2>.item12 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            display: grid;
+            grid-template-columns: repeat(2, 4fr 3fr);
+            grid-auto-rows: 300px;
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 30px;
+            text-align: center;
+            margin: 8px;
+            background-image: url("https://images4.alphacoders.com/262/262388.jpg");
+            background-position: 1300px 850px;
+            width: 400px;
+            margin-left: 35px;
+            margin-right: 50px;
+        }
+
+        .container2>.item13 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 300px;
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 27px;
+            text-align: center;
+            margin: 8px;
+            background-image: url("https://3.bp.blogspot.com/-n5aHM0lTxHw/WTiAvKYLkMI/AAAAAAAAOfY/Ek0BnGhbNZ8_1Rii__xF7XFqaOGJnPJjwCLcB/s1600/maxresdefault.jpg");
+            background-position: 0 1050px;
+            width: 400px;
+            margin-left: 425px;
+            margin-right: 50px;
+
+        }
+
+        .container2>.item14 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            display: grid;
+            grid-template-columns: repeat(2, 4fr 1fr);
+            grid-auto-rows: 300px;
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 30px;
+            text-align: center;
+            margin: 8px;
+            background-image: url("https://th.bing.com/th/id/R.1cde17cb885d1478f2bd0580e512711b?rik=eutbjrohaDNX0Q&riu=http%3a%2f%2fwww.hdwallpapers.in%2fwalls%2fdevil_may_cry_4-HD.jpg&ehk=YJ9zt%2fjki2oocwMQLr8Tn5bbkQroD4Tpt1a6XjqCp0Q%3d&risl=&pid=ImgRaw&r=0");
+            background-position: 1100px 800px;
+            width: 400px;
+            margin-left: 35px;
+            margin-right: 50px;
+        }
+
+        .container>.item15 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 300px;
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 30px;
+            text-align: center;
+            margin: 8px;
+            background-image: url("https://pm1.narvii.com/7995/345446d27905da04d6e7edf28ae6f6c5484542e1r1-736-1030v2_00.jpg");
+            background-position: 0 940px;
+            width: 925px;
+            margin-left: 250px;
+            margin-right: 50px;
+        }
+
+        .container>.item16 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 300px;
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 30px;
+            text-align: center;
+            margin: 4px;
+            background-image: url("");
+            background-position: 0 730px;
+            width: 1200px;
+        }
+
+        .container>.item17 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-auto-rows: 300px;
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 30px;
+            text-align: center;
+            margin: 4px;
+            background-image: url("");
+            background-position: 0 730px;
+            width: 1200px;
+        }
+
+        .container>.item2 {
+            border: 2px solid rgba(255, 255, 255, 0);
+            background-color: rgba(27, 27, 27, 0);
+            color: rgb(255, 255, 255);
+            min-height: 50px;
+            min-width: 20px;
+            font-size: 36px;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .container>.item3 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            color: rgb(255, 255, 255);
+            min-height: 10px;
+            font-size: 30px;
+            text-align: center;
+            margin: 5px;
+        }
+
+        .container>.item31 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            background-color: rgba(27, 27, 27, 0);
+            color: rgb(0, 0, 0);
+            min-height: 10px;
+            font-size: 30px;
+            text-align: center;
+            margin: 5px;
+
+        }
+
+        .container>.item4 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            color: rgb(247, 247, 247);
+            font-size: 30px;
+            text-align: center;
+            margin: auto;
+            background-image: url("https://wallpapercave.com/wp/V8CfemU.jpg");
+            background-position: 1400px 910px;
+            width: 1000px;
+        }
+
+        .container>.item5 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            color: rgb(247, 247, 247);
+            font-size: 30px;
+            text-align: center;
+            margin: auto;
+            background-image: url("https://sirus.b-cdn.net/wp-content/uploads/2020/09/devil-may-cry-v-special-edition-04.jpg");
+            background-position: 1650px 1920px;
+            width: 1000px;
+        }
+
+        .container>.item6 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            color: rgb(247, 247, 247);
+            font-size: 30px;
+            text-align: center;
+            margin: auto;
+            background-image: url("https://i.ytimg.com/vi/fV6OywLlO0w/maxresdefault.jpg");
+            background-position: 1300px 1225px;
+            width: 1000px;
+        }
+
+        .container>.item7 {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            color: rgb(247, 247, 247);
+            font-size: 30px;
+            text-align: center;
+            margin: auto;
+            background-image: url("https://dailygame.at/wp-content/uploads/2021/01/Devil-May-Cry-5.jpg");
+            background-position: 1550px 1750px;
+            width: 1000px;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        h1 {
+            text-align: center;
+            color: #047abee0;
+            font-family: 'Crimson Text', serif;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        div#border {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            border-radius: 10px;
+        }
+
+        p#border {
+            border: 2px solid rgba(255, 255, 255, 0.493);
+            border-radius: 10px;
+        }
+
+        p {
+            text-align: center;
+            color: white;
+            margin: 35px 15px;
+            font-family: 'Crimson Text', serif;
+            font-family: 'Roboto Slab', serif;
+        }
+
+        div#lado {
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+
+        p#Cor {
+            color: #047abee0;
+            text-align: center;
+            margin: 35px 15px;
+        }
+
+        p#color {
+            color: rgb(160, 10, 10);
+            text-align: center;
+            margin: 35px 15px;
+        }
+
+        p#color2 {
+            color: black;
+            text-align: center;
+            margin: 35px 15px;
+        }
+
+        /*botões*/
+        .btn {
+            left: 300px;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 700px;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            text-decoration: none;
+            margin: 20px 3px;
+        }
+
+        .btn-black {
+            background-color: #d62727;
+            color: white;
+            box-shadow: 0 5px 0 #a82424;
+            margin: 10px 0;
+        }
+
+        .btn-black:hover {
+            background-color: #9b1818;
+            color: white;
+            box-shadow: 0 5px 0 #571010;
+            margin: 10px 0;
+        }
+
+        .btn-black:active {
+            position: static;
+            top: 5px;
+            box-shadow: none;
+        }
+
+        /*Botões fim*/
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="border" class="item">
+
+            <div class="item">
+                <h1>
+                    <p id="Cor"><strong>Devil My</strong></p> <strong>Cry 5</strong>
+                </h1>
+            </div>
+
+        </div>
+
+        <div class="item2">
+            <div>Opções de páginas</div>
+            <a href="Notícia1.html" class="btn btn-black item">Menu</a>
+            <a href="Notícia2.html" class="btn btn-black item">História do jogo</a>
+            <a href="Notícia3.html" class="btn btn-black item">Characters</a>
+            <a href="Notícia4.html" class="btn btn-black item">Armas</a>
+            <a href="Notícia6.html" class="btn btn-black item">Monstros</a>
+            <a href="Notícia7.html" class="btn btn-black item">Extras e Curiosidades</a>
+        </div>
+
+
+    </div>
+
+    <div class="container2">
+
+        <div id="border" class="item11">
+            <p>Bosses de Devil My Cry</p>
+        </div>
+
+        <div id="border" class="item12">
+            <p>Bosses de Devil My Cry2</p>
+        </div>
+
+        <div id="border" class="item13">
+            <p>Bosses de Devil My cry3</p>
+        </div>
+
+        <div id="border" class="item14">
+            <p>Bosses de Devil My Cry4</p>
+        </div>
+    </div>
+
+    <div class="container"> 
+    <div id="border" class="item15">
+        <p>Bosses de Devil My Cry5</p>
+    </div>
+</div>
+
+
+
+</body>
+
+</html>
